@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class User {}","map":{"version":3,"names":["User"],"sources":["/workspace/angular-advanced-springboot/labs/lab1/js/application/src/app/model/user.ts"],"sourcesContent":["export class User {\n    id: string;\n    name: string;\n    email: string;\n}\n"],"mappings":"AAAA,OAAM,MAAOA,IAAI"},"metadata":{},"sourceType":"module","externalDependencies":[]}
