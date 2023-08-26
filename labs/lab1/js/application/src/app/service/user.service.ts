@@ -10,7 +10,7 @@ export class UserService {
 
   constructor(private http: HttpClient) {
     // this.usersUrl = 'http://UPDATE_URL:8080/users';
-    this.usersUrl = 'UPDATE_URL_HERE';
+    this.usersUrl = 'ADD_SPRING_BOOT_URL_HERE';
   }
 
   public findAll(): Observable<User[]> {
