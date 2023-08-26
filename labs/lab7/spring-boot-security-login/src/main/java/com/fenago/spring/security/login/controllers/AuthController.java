@@ -34,9 +34,9 @@ import com.fenago.spring.security.login.repository.UserRepository;
 import com.fenago.spring.security.login.security.jwt.JwtUtils;
 import com.fenago.spring.security.login.security.services.UserDetailsImpl;
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+// @CrossOrigin(origins = "*", maxAge = 3600)
 //for Angular Client (withCredentials)
-//@CrossOrigin(origins = "http://localhost:8081", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
