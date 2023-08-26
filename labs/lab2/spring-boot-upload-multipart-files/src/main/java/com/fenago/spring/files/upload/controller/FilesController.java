@@ -23,7 +23,7 @@ import com.fenago.spring.files.upload.model.FileInfo;
 import com.fenago.spring.files.upload.service.FilesStorageService;
 
 @Controller
-@CrossOrigin("http://localhost:8081")
+@CrossOrigin(origins = "*")
 public class FilesController {
 
   @Autowired
