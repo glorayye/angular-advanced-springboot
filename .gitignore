@@ -3,3 +3,9 @@
 
 /.angular
 **/.angular
+
+
+/target
+**/target
+**/**/target
+**/target/**
