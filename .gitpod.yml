@@ -6,6 +6,9 @@ ports:
   - port: 8080
     onOpen: "notify"
     visibility: "public"
+  - port: 8081
+    onOpen: "notify"
+    visibility: "public"
   - port: 4200
     onOpen: "open-browser"
     visibility: "public"
