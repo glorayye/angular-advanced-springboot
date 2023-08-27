@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 // @CrossOrigin(origins = "*", maxAge = 3600)
 // for Angular Client (withCredentials)
-@CrossOrigin(origins = "*", maxAge = 3600, allowCredentials="true")
+@CrossOrigin(origins = "ADD_SPRING_BOOT_URL_HERE", maxAge = 3600, allowCredentials="true")
 @RestController
 @RequestMapping("/api/test")
 public class TestController {
