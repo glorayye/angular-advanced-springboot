@@ -35,7 +35,7 @@ export class EcommerceService {
 
     set SelectedProductOrder(value: ProductOrder) {
         this.productOrder = value;
-        this.productOrderSubject.next();
+        this.productOrderSubject.next(value);
     }
 
     get SelectedProductOrder() {
@@ -44,7 +44,7 @@ export class EcommerceService {
 
     set ProductOrders(value: ProductOrders) {
         this.orders = value;
-        this.ordersSubject.next();
+        this.ordersSubject.next(value);
     }
 
     get ProductOrders() {
@@ -57,6 +57,6 @@ export class EcommerceService {
 
     set Total(value: number) {
         this.total = value;
-        this.totalSubject.next();
+        this.totalSubject.next(value);
     }
 }
