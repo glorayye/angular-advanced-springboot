@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class FileUploadService {
-  private baseUrl = 'http://localhost:8080';
+  private baseUrl = 'ADD_SPRING_BOOT_URL_HERE';
 
   constructor(private http: HttpClient) {}
 
