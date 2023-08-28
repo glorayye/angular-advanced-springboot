@@ -1,3 +1,10 @@
+# NOTE: Might need to re run 
+
+sdk install java 17.0.8-oracle
+sdk use java 17.0.8-oracle
+
+npm install -g @angular/cli
+
 # Setting Up Gitpod for Angular and Spring Boot
 Follow these steps to configure your Gitpod environment for Java, Spring Boot, and Spring services development:
 
